@@ -1,0 +1,18 @@
+
+* Add optional configure features.  Examples
+
+	--[en/dis]able-debug
+	--[en/dis]able-release
+	--[en/dis]able-warnings
+	--[en/dis]able-threads
+
+* Add platform-checking code.  Examples:
+
+	Poshlib - http://www.writeportablecode.com/
+	Boost Config - http://www.boost.org/libs/config/
+
+* Create a branch for distributions written exclusively in C++.
+
+	- Add Autotool macros for C++.
+	http://autoconf-archive.cryp.to/macros-by-category.html#CXX
+
